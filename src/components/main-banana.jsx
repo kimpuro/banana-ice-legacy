@@ -23,7 +23,7 @@ export default function MainBanana() {
                         height={150}
                     />
                 )
-                : <div className='w-[150px] h-[150px]'></div>}
+                : <div className='w-[150px] h-[150px]' />}
             <Image className="mb-32"
                 src={image}
                 alt="main banana"

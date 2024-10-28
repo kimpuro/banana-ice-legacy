@@ -1,6 +1,7 @@
 import Image from "next/image";
 import MainBanana from "@/components/main-banana";
 import LinkButton from "@/components/link-button";
+import BananaPackIcon from "@/components/banana-pack-icon";
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
                     <LinkButton buttonType="insta"/>
                     <LinkButton buttonType="youtube"/>
                 </div>
+                <BananaPackIcon/>
             </main>
 
         </>

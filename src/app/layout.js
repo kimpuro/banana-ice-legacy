@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ko">
     <Analytics/>
-      <body
+      <body className='w-full h-dvh'
       >
         {children}
       </body>
